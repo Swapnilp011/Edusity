@@ -1,20 +1,31 @@
-<<<<<<< HEAD
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
 # Edusity
->>>>>>> c2418f135cce75f8e6b39139e7f77eb42dcecf11
+
+This project is a web application for an educational platform called Edusity, built with React and Vite.
+
+## Development
+
+To run the project in a development environment, follow these steps:
+
+1.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+2.  **Start the development server:**
+    ```bash
+    npm run dev
+    ```
+    This will start the development server and you can view the application in your browser at `http://localhost:5173` (the port may vary).
+
+## Building for Production
+
+To create a production build of the application, run the following command:
+
+```bash
+npm run build
+```
+
+This will create a `dist` folder with the optimized and minified files for deployment.
+
+## Deployment
+
+This project is configured for deployment on Vercel. After pushing your changes to your Git repository, you can deploy the application through the Vercel dashboard.
